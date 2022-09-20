@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Decorated table</title>
+  <style>
+    *{
+        margin:20;
+        padding:0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: rgb(48, 48, 55);
+        font-family:sans-serif;
+        font-weight: 400;
+    }
+    .heading{
+        padding: 40px;
+        text-align:center;
+        color:aliceblue   
+    }
+    .table{
+      width:50%;
+      border-collapse: collapse;
+      letter-spacing: 0.35px;
+      text-align: center;
+      background-color: rgb(21, 90, 90);
+    }
+.table-heading{
+      color: beige;
+    }
+.table{
+    padding: 12px;
+    height: 300px;
+    border-radius:12px 12px 0 0;
+    overflow: hidden;
+    box-shadow: 0 12px 15px;
+   }
+td{
+    font-family:open sans-serif;
+   }
+tr:nth-child(odd){
+    background-color: rgb(10, 110, 110);
+   }
+</style>
+      </head>
+ <body>
+<div class="table-container">
+    <h1 class="heading">Decorated Table</h1>
+</div>
+
+<center>
+    
+    <table class="table">
+    <tr class="table-heading" style="background-color:red;">
+        <th>Start Date</th>
+        <th>Start/End Time</th>
+        <th>Batch Type</th>
+        <th>Teaching Mode</th>
+        <th>Admission</th>
+        
+    </tr>
+    <tr class="Data">
+        <td data-lable="Start Date">20.09.2022</td>
+        <td data-lable="Start/End Time">8:30 - 10:30(IST)</td>
+        <td data-lable="Batch Type">Week Days</td>
+        <td data-lable="Teaching Mode">Online</td>
+        <td data-lable="Admission">Open</td>
+    </tr>
+    <tr>
+        <td data-lable="Start Date">20.09.2022</td>
+        <td data-lable="Start/End Time">11:00 - 01:00(IST)</td>
+        <td data-lable="Batch Type">Week Days</td>
+        <td data-lable="Teaching Mode">Online</td>
+        <td data-lable="Admission">Open</td>
+    </tr>
+    <tr>
+        <td data-lable="Start Date">21.09.2022</td>
+        <td data-lable="Start/End Time">8:30 - 10:30(IST)</td>
+        <td data-lable="Batch Type">Week Days</td>
+        <td data-lable="Teaching Mode">Online</td>
+        <td data-lable="Admission">Open</td>
+    </tr>
+    <tr>
+        <td data-lable="Start Date">21.09.2022</td>
+        <td data-lable="Start/End Time">11:00 - 01:00(IST)</td>
+        <td data-lable="Batch Type">Week Days</td>
+        <td data-lable="Teaching Mode">Online</td>
+        <td data-lable="Admission">Open</td>
+    </tr>
+    <tr>
+        <td data-lable="Start Date">22.09.2022</td>
+        <td data-lable="Start/End Time">8:30 - 10:30(IST)</td>
+        <td data-lable="Batch Type">Week Days</td>
+        <td data-lable="Teaching Mode">Online</td>
+        <td data-lable="Admission">Open</td>
+    </tr>
+    <tr>
+        <td data-lable="Start Date">22.09.2022</td>
+        <td data-lable="Start/End Time">11:00 - 01:00(IST)</td>
+        <td data-lable="Batch Type">Week Days</td>
+        <td data-lable="Teaching Mode">Online</td>
+        <td data-lable="Admission">Open</td>
+    </tr>
+
+</table>
+</body>
+
+</html>
